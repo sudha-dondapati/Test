@@ -4,6 +4,8 @@ public class User {
  private int id;
  private String firstName;
 	private String middleName;
+	private String lastName;
+	private int phone;
 
 	public int getId() {
 		return id;
@@ -21,13 +23,23 @@ public class User {
 		this.firstName = firstName;
 	}
 
-	public String getSudha() {
-		return Sudha;
+	public String getMiddleName() {
+		return middleName;
 	}
 
-	public void setSudha(String sudha) {
-		Sudha = sudha;
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
 	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	
  
  
 }
